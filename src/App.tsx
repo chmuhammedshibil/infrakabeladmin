@@ -1,4 +1,3 @@
-
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import AdminLayout from './Layout/AdminLayout'
@@ -9,8 +8,8 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/admin' element={<AdminLayout/>}>
-            <Route index element={<AdminDashboard/>}/>
+        <Route path='/' element={<AdminLayout/>}> 
+          <Route index element={<AdminDashboard/>}/>
         </Route>
       </Routes>
     </div>
