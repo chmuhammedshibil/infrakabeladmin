@@ -1,0 +1,4 @@
+[data-tooltip]::before {
+    content: attr(data-tooltip);
+    @apply absolute left-20 ml-2 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity bg-gray-900 text-white text-sm px-3 py-2 rounded-lg shadow-xl whitespace-nowrap;
+  }

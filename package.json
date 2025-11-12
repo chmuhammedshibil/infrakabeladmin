@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "apexcharts": "^5.3.6",
     "lucide-react": "^0.553.0",
     "react": "^19.2.0",
+    "react-apexcharts": "^1.8.0",
     "react-dom": "^19.2.0",
+    "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
